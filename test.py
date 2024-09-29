@@ -14,8 +14,5 @@ for i in range(len(data)):
     print(video_response.json())
 
 input()
-response = requests.delete(BASE + "video/0")
-print(response)
-input()
-video_response = requests.get(BASE + "video/2")
+video_response = requests.get(BASE + "video/6")
 print(video_response.json())
